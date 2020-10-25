@@ -1,0 +1,6 @@
+git config --global user.name "sothon"
+git config --global user.email "huonsothon@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+git config --global --list
