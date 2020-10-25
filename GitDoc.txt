@@ -4,5 +4,27 @@ git config --global push.default matching
 git config --global alias.co checkout
 git init
 git config --global --list
+git config --global -e
+
+*create new branch 
+	git ceckout -b branchname
+*delete branch
+	git branch -d branchname
 
 git pull origin master --allow-unrelated-histories
+
+*** p4merge
+https://www.perforce.com/downloads/visual-merge-tool
+install check only Merge and Diff(P4Merge)
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+git config --global mergetool.prompt false
+git config --global diff.tool p4merge
+git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+git config --global difftool.prompt false
+
+git diff master otherbranchname
+git difftool master otherbranchname
+
+
+
