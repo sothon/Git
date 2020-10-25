@@ -4,3 +4,5 @@ git config --global push.default matching
 git config --global alias.co checkout
 git init
 git config --global --list
+
+git pull origin master --allow-unrelated-histories
