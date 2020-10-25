@@ -3,6 +3,7 @@ git config --global user.email "huonsothon@gmail.com"
 git config --global push.default matching
 git config --global alias.co checkout
 git init
+
 git config --global --list
 git config --global -e
 
@@ -25,6 +26,8 @@ git config --global difftool.prompt false
 
 git diff master otherbranchname
 git difftool master otherbranchname
+git mergetool
+
 
 
 
